@@ -8,9 +8,9 @@ import { TaskCard } from './components/TaskCard';
 export function App () {
   return (
     <>
-    <Header/>
-    <AddTaskBar/>
-    <TaskCard/>
+      <Header/>
+      <AddTaskBar/>
+      <TaskCard/>
     </>
   )
 }
