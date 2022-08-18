@@ -10,5 +10,16 @@
     color: var(--gray-100);
     margin-top: 0.75rem;
     align-items: center;
+    justify-content: space-between;
     }
     
+.checkbox {
+    display: none;
+}
+
+.flexcontainer {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    gap: 0.75rem;
+}
