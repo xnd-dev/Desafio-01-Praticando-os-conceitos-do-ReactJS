@@ -5,7 +5,6 @@ interface TaskContainerProps {
     taskList: string[];
 }
 
-
 export function TaskContainer ({taskList}:TaskContainerProps) {
     return (
         <div className={styles.container}>
